@@ -1,0 +1,87 @@
+[S[WQuestion what][VP[Verb was][NP+AdverbPhrase[Adverb yesterday][NP+AdverbPhrase[NP[Article the][Noun temperature]][AdverbPhrase[Preposition in][Name Pasadena]]]]]]
+[S[NP[Article the][Noun wumpus]][VP[Verb is][Adjective dead]]]
+
+[S[WQuestion will][VP[Adverb tomorrow]
+[VP[Verb be][NP[Adjective hotter][AdverbPhrase[Preposition than][AdverbPhrase[Noun today][AdverbPhrase[Preposition in][Name Pasadena]]]]]]
+-------------------------------------------------------
+            ['S', 'Greeting', 'S', 0.25],
+            ['S', 'NP', 'VP', 0.25],
+            ['S', 'Pronoun', 'VP', 0.25],
+            ['S', 'WQuestion', 'VP', 0.25],
+
+            ['VP', 'Verb', 'NP', 0.4],
+            ['VP', 'Verb', 'Name', 0.2],
+            ['VP', 'Verb', 'NP', 0.1],
+            ['VP', 'AdVerb', 'VP', 0.1],
+            ['VP', 'Verb', 'NP+AdverbPhrase', 0.3],
+
+            ['NP', 'Article', 'Noun', 0.5],
+            ['NP', 'Adjective', 'Noun', 0.5],
+            ['NP', 'Adjective', 'AdverbPhrase', 0.5],
+            ['NP+AdverbPhrase', 'NP', 'AdverbPhrase', 0.2],
+            ['NP+AdverbPhrase', 'Noun', 'AdverbPhrase', 0.2],
+            ['NP+AdverbPhrase', 'Noun', 'Adverb', 0.2],
+            ['NP+AdverbPhrase', 'NP', 'Adverb', 0.15],
+            ['NP+AdverbPhrase', 'AdverbPhrase', 'NP', 0.05],
+            ['NP+AdverbPhrase', 'AdverbPhrase', 'Noun', 0.05],
+            ['NP+AdverbPhrase', 'Adverb', 'Noun', 0.05],
+            ['NP+AdverbPhrase', 'Adverb', 'NP+AdverbPhrase', 0.05],
+            ['NP+AdverbPhrase', 'Adverb', 'NP', 0.05],
+            ['AdverbPhrase', 'Preposition', 'NP', 0.2],
+            ['AdverbPhrase', 'Preposition', 'Name', 0.2],
+            ['AdverbPhrase', 'Adverb', 'AdverbPhrase', 0.2],
+            ['AdverbPhrase', 'Noun', 'AdverbPhrase', 0.2],
+            ['AdverbPhrase', 'Preposition', 'AdverbPhrase', 0.2],
+            ['AdverbPhrase', 'AdverbPhrase', 'Adverb', 0.4],
+
+
+            ['S', 'Greeting', 'S', 0.25],
+            ['S', 'NP', 'VP', 0.25],
+            ['S', 'Pronoun', 'VP', 0.25],
+            ['S', 'WQuestion', 'VP', 0.25],     
+
+            ['VP', 'Verb', 'NP', 0.4],
+            ['VP', 'Verb', 'Name', 0.2],
+            ['VP', 'Verb', 'NP', 0.1],
+            ['VP','Verb','Adjective',0.06],
+            ['VP', 'Adverb', 'VP', 0.6 * 0.15],
+
+            ['NP', 'Article', 'Noun', 0.5],
+            ['NP', 'Adjective', 'Noun', 0.5],
+            ['NP','Adjective','AdverbPhrase',0.8],
+
+            ['NP+AdverbPhrase', 'NP', 'AdverbPhrase', 0.2],
+            ['NP+AdverbPhrase', 'Noun', 'AdverbPhrase', 0.2],
+            ['NP+AdverbPhrase', 'Noun', 'Adverb', 0.2],
+            ['NP+AdverbPhrase', 'NP', 'Adverb', 0.15],
+            ['NP+AdverbPhrase', 'AdverbPhrase', 'NP', 0.05],
+            ['NP+AdverbPhrase', 'AdverbPhrase', 'Noun', 0.05],
+            ['NP+AdverbPhrase', 'Adverb', 'Noun', 0.05],
+            ['NP+AdverbPhrase', 'Adverb', 'NP+AdverbPhrase', 0.05],
+            ['NP+AdverbPhrase', 'Adverb', 'NP', 0.05],
+            ['AdverbPhrase', 'Preposition', 'NP+AdverbPhrase', 0.2],
+            ['AdverbPhrase', 'Preposition', 'NP', 0.2],
+            ['AdverbPhrase', 'Preposition', 'Name', 0.2],
+            ['AdverbPhrase', 'Preposition', 'AdverbPhrase', 0.2],
+            ['AdverbPhrase', 'Adverb', 'AdverbPhrase', 0.2],
+            ['AdverbPhrase', 'AdverbPhrase', 'Adverb', 0.2],
+-------------------------------------------------------
+
+
+-------------------------------------------------------
+[
+S
+[WQuestion what]
+[
+VP[Verb is]
+[
+NP+AdverbPhrase[Adverb now]
+
+[
+NP+AdverbPhrase
+[NP[Article the][Noun temperature]]
+[AdverbPhrase[Preposition in][Name Irvine]]
+]
+]
+]
+]
